@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute Page</title>
+    <link rel="icon" href="assets/images/logo.jpg" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- BOX ICON -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-custom shadow-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://itzy.jype.com/">
+            <img src="assets/images/logo2.png" style="width: 32px; height: auto" alt="ITZY" />
+            <!--Sumber gambar : https://itzy.jype.com/-->
+          </a>
+          <button class="navbar-toggler pink" type="button" data-bs-toggle="collapse" data-bs-target=".navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon pink2"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end navbarNav">
+            <ul class="navbar-nav" style="font-size: larger">
+              <li class="nav-item">
+                <a class="nav-link hvr-grow-shadow" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-grow-shadow" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle hvr-grow-shadow" style="text-decoration: none" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profile </a>
+                <ul class="dropdown-menu fw-bold" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item pink3" href="#discography">DISCOGRAPHY</a></li>
+                  <li><a class="dropdown-item pink3" href="#gallery">GALLERY</a></li>
+                  <li><a class="dropdown-item pink3" href="#award">ACHIEVMENT</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- NAVBAR END -->
+    <!-- HERO START -->
+    <section class="hero-section mt-3" id="hero">
+      <header class="hero-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 hero-content content1">
+              <h1 class="display-4 text-center">
+                <img src="assets/images/logo2.png" alt="" />
+                <!-- sumber gambar:https://id.pinterest.com/search/pins/?q=itzy&rs=rs&eq=&etslf=3089 -->
+              </h1>
+              <p class="lead">
+                ITZY, girl group Korea, memikat penggemar dengan karisma dan keberanian mereka. Dengan lima anggota berbakat - Yeji, Lia, Ryujin, Chaeryeong, dan Yuna - ITZY merilis lagu-lagu energik yang menginspirasi percaya diri. Hits
+                seperti "DALLA DALLA" dan "WANNABE" menciptakan pesona yang tak terlupakan, membuat ITZY menjadi ikon kebebasan dan keberanian dalam K-pop.
+              </p>
+              <ul>
+                <li>
+                  <a href="#discography" class="d-inline-flex align-items-center gap-2"> DISCOGRAPHY <i class="bx bx-right-arrow-alt fs-4"></i> </a>
+                </li>
+                <li>
+                  <a href="#gallery" class="d-inline-flex align-items-center gap-2"> GALLERY <i class="bx bx-right-arrow-alt fs-4"></i> </a>
+                </li>
+                <li>
+                  <a href="#award" class="d-inline-flex align-items-center gap-2"> ACHIEVMENT <i class="bx bx-right-arrow-alt fs-4"></i> </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 hero-content m-auto p-5">
+              <h1 class="display-4 gambar-hero">
+                <img src="assets/images/gambar3.jpg " class="gambar1" />
+                <img src="assets/images/gambar4.jpg" class="gambar2" />
+                <!-- sumber gambar:https://id.pinterest.com/search/pins/?q=itzy&rs=rs&eq=&etslf=3089 -->
+              </h1>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+    <!-- HERO END -->
+    <!-- ABOUT START -->
+    <section class="about-section mt-3" id="about">
+        <div class="container mt-5 ">
+            <p class="fs-4 pink2" data-aos="fade-right">about</p>
+            <h2 class="section-title" data-aos="fade-left">member profile</h2>
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-4">
+                    <div class="image-container ">
+                        <img src="assets/images/ryujin.jpg" data-aos="fade-right" alt="Image">
+                        <div class="overlay">
+                          <div class="overlay-content">
+                            <h3>Ryujin</h3>
+                            <ul class="text-start mt-3">
+                                <li>Stage Name: Ryujin (류진)</li>
+                                <li>Birth Name: Shin Ryu Jin (신류진)</li>
+                                <li>Position: Main Rapper, Lead Dancer, Sub Vocalist, Center</li>
+                                <li>Birthday: April 17, 2001</li>
+                                <li>MBTI Type: INTJ</li>
+                            </ul>
+                            <a href="member/ryujin.html" class="btn hvr-ripple-out bg-danger mt-3 rounded-5 ">Selengkapnya</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/yeji.jpg" data-aos="fade-up" alt="Image">
+                        <div class="overlay">
+                          <div class="overlay-content ">
+                            <h3>Yeji</h3>
+                            <ul class="text-start">
+                                <li>Stage Name: Yeji (예지)</li>
+                                <li>Birth Name: Hwang Ye Ji (황예지)</li>
+                                <li>Position: Leader, Main Dancer, Lead Vocalist, Sub Rapper</li>
+                                <li>Birthday: May 26, 2000</li>
+                                <li>MBTI Type: ESFJ</li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/chaeryeong.jpg" data-aos="fade-left" alt="Image">
+                        <div class="overlay">
+                          <div class="overlay-content">
+                            <h3>Chaeryeong</h3>
+                            <ul class="text-start">
+                                <li>Stage Name: Chaeryeong (채령)</li>
+                                <li>Birth Name: Lee Chae Ryeong (이채령)</li>
+                                <li>Position: Main Dancer, Sub Vocalist, Sub Rapper</li>
+                                <li>Birthday: June 5, 2001</li>
+                                <li>MBTI Type: ESFJ</li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/lia.jpg" data-aos="fade-right" alt="Image">
+                        <div class="overlay">
+                          <div class="overlay-content">
+                            <h3>Lia</h3>
+                            <ul class="text-start">
+                                <li>Stage Name: Lia (리아)</li>
+                                <li>Birth Name: Choi Ji Su (최지수)</li>
+                                <li>Position: Main Vocalist, Sub Rapper</li>
+                                <li>Birthday: July 21, 2000</li>
+                                <li>MBTI Type: ENFJ</li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-container">
+                        <img src="assets/images/yuna.jpg" data-aos="fade-left" alt="Image">
+                        <div class="overlay">
+                          <div class="overlay-content">
+                            <h3>Yuna</h3>
+                            <ul class="text-start">
+                                <li>Stage Name: Yuna (유나)</li>
+                                <li>Birth Name: Shin Yu Na (신유나)</li>
+                                <li>Position: Lead Rapper, Lead Dancer, Sub Vocalist, Visual, Maknae</li>
+                                <li>Birthday: December 9, 2003</li>
+                                <li>MBTI Type: ENFP</li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT END -->
+    <!-- DISCOGRAPHY START -->
+    <section class="discography-section mt-3" id="discography">
+        <div class="container d-flex ">
+            <div class="row justify-content-center align-items-center">
+                <h2 class="text-start fs-2 section-title" data-aos="fade-up">Discography</h2>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/album1.jpg" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                      <h5 class="card-title fs-5">KILL MY DOUBT</h5>
+                      <p class="card-text">Release Date: 2023-07-31</p>
+                      <ul style=" list-style-type: disc;">
+                        Track List
+                        <li>BET ON ME</li>
+                        <li>CAKE</li>
+                        <li>None of My Business</li>
+                        <li>Bratty (나쁜 애)</li>
+                        <li>Psychic Lover</li>
+                        <li>Kill Shot</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/album2.jpg" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                      <h5 class="card-title fs-5">CHESHIRE</h5>
+                      <p class="card-text">Release Date: 2022-11-30</p>
+                      <ul style=" list-style-type: disc;">
+                        Track List
+                        <li>Cheshire</li>
+                        <li>Snowy</li>
+                        <li>Freaky</li>
+                        <li>Boys Like You</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/album3.png" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                      <h5 class="card-title fs-5">Boys Like You</h5>
+                      <p class="card-text">Release Date: 2022-10-21</p>
+                      <ul style=" list-style-type: disc;">
+                        Track List
+                        <li>Boys Like You</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/album4.jpg" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                      <h5 class="card-title fs-5">CHECKMATE</h5>
+                      <p class="card-text">Release Date: 2022-07-15</p>
+                      <ul style=" list-style-type: disc;">
+                        Track List
+                        <li>SNEAKERS</li>
+                        <li>RACER</li>
+                        <li>WHAT I WANT</li>
+                        <li>Free Fall</li>
+                        <li>365</li>
+                        <li>DOMINO</li>
+                        <li>SNEAKERS (English Ver.)</li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/album5.jpg" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                        <h5 class="card-title fs-5">CRAZY IN LOVE</h5>
+                        <p class="card-text">Release Date: 2021-09-24</p>
+                        <ul style=" list-style-type: disc;">
+                          Track List
+                          <li>LOCO</li>
+                          <li>SWIPE</li>
+                          <li>Sooo LUCKY</li>
+                          <li>#TWENTY</li>
+                          <li>B[OO]M-BOXX</li>
+                          <li>Gas Me Up</li>
+                          <li>LOVE is</li>
+                          <li>chillin'chillin'</li>
+                          <li>Mirror</li>
+                          <li>LOCO (English Ver.)</li>
+                          <li>달라달라 (Inst.)</li>
+                          <li>WANNABE (Inst.)</li>
+                          <li>Not Shy (Inst.)</li>
+                          <li>Not Shy (Inst.)</li>
+                          <li>마.피.아. In the morning (Inst.)</li>
+                          <li>LOCO (Inst.)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/album6.jpg" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                      <h5 class="card-title fs-5">마.피.아. In the morning (English Ver.)</h5>
+                      <p class="card-text">Release Date: 2021-05-14</p>
+                      <ul style=" list-style-type: disc;">
+                        Track List
+                        <li>마.피.아. In the morning (English Ver.)</li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/album7.jpg" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                      <h5 class="card-title fs-5">GUESS WHO</h5>
+                      <p class="card-text">Release Date: 2021-04-30</p>
+                      <ul style=" list-style-type: disc;">
+                        Track List
+                        <li>마.피.아. In the morning</li>
+                        <li>Sorry Not Sorry</li>
+                        <li>KIDDING ME</li>
+                        <li>Wild Wild West</li>
+                        <li>SHOOT!</li>
+                        <li>TENNIS (0:0)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/album8.jpg" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                      <h5 class="card-title fs-5">믿지 (MIDZY)</h5>
+                      <p class="card-text">Release Date: 2021-03-20</p>
+                      <ul style=" list-style-type: disc;">
+                        Track List
+                        <li>믿지 (MIDZY)</li>
+                        <li>믿지 (MIDZY) (English Ver.)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/album9.jpg" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                      <h5 class="card-title fs-5">Not Shy (English Ver.)</h5>
+                      <p class="card-text">Release Date: 2021-01-22</p>
+                      <ul style=" list-style-type: disc;">
+                        Track List
+                        <li>Not Shy (English Ver.)</li>
+                        <li>WANNABE (English Ver.)</li>
+                        <li>ICY (English Ver.)</li>
+                        <li>달라달라 (English Ver.)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/album10.jpg" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                      <h5 class="card-title fs-5">Not Shy</h5>
+                      <p class="card-text">Release Date: 2020-08-17</p>
+                      <ul style=" list-style-type: disc;">
+                        Track List
+                        <li>Not Shy</li>
+                        <li>Don't Give A What</li>
+                        <li>Louder</li>
+                        <li>iD</li>
+                        <li>SURF</li>
+                        <li>Be In Love</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/WANNABE.jpg" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                      <h5 class="card-title fs-5">IT'z ME</h5>
+                      <p class="card-text">Release Date: 2020-03-09</p>
+                      <ul style=" list-style-type: disc;">
+                        Track List
+                        <li>WANNABE</li>
+                        <li>TING TING TING with Oliver Heldens</li>
+                        <li>THAT'S A NO NO</li>
+                        <li>NOBODY LIKE YOU</li>
+                        <li>YOU MAKE ME</li>
+                        <li>I DON'T WANNA DANCE</li>
+                        <li>24HRS</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/album12.jpg" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                      <h5 class="card-title fs-5">IT'z ICY</h5>
+                      <p class="card-text">Release Date: 2019-07-29</p>
+                      <ul style=" list-style-type: disc;">
+                        Track List
+                        <li>ICY</li>
+                        <li>CHERRY</li>
+                        <li>IT'z SUMMER</li>
+                        <li>달라달라 (DallasK Remix)</li>
+                        <li>WANT IT? (Imad Royal Remix)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card album-card">
+                    <img src="assets/images/album13.jpg" data-aos="flip-up" class="card-img-top" alt="Album Cover">
+                    <div class="album-info">
+                      <h5 class="card-title fs-5">IT'z Different</h5>
+                      <p class="card-text">Release Date: 2019-02-12</p>
+                      <ul style=" list-style-type: disc;">
+                        Track List
+                        <li>달라달라</li>
+                        <li>WANT IT?</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+        </div>
+    </section>
+    <!-- DISCOGRAPHY END -->
+    <!-- GALLERY START -->
+    <section class="galery-section mt-3" id="gallery">
+        <h2 class="text-center mb-5 fs-2 section-title" data-aos="fade-right">GALLERY</h2>
+        <div class="container .gallery-container">
+            <div class="row">
+              <div class="col-md-8 gallery-item">
+                <img src="assets/images/gallery1.jpg" data-aos="flip-left">
+              </div>
+              <div class="col-6 col-md-4 gallery-item">
+                <img src="assets/images/gallery2.jpg" data-aos="flip-left">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 col-md-4 gallery-item">
+                <img src="assets/images/gallery3.jpg" data-aos="flip-left">
+              </div>
+              <div class="col-6 col-md-4 gallery-item">
+                <img src="assets/images/gallery4.jpg" data-aos="flip-left">
+              </div> 
+              <div class="col-6 col-md-4 gallery-item">
+                <img src="assets/images/gallery5.jpg" data-aos="flip-left">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 gallery-item">
+                <img src="assets/images/gallery6.jpg" data-aos="flip-left">
+              </div>
+              <div class="col-6 gallery-item">
+                <img src="assets/images/gallery12.jpg" data-aos="flip-left">
+              </div>
+            </div>
+            <div class="row">
+                <div class="col gallery-item">
+                    <img src="assets/images/gallery7.jpg" data-aos="flip-left">
+                </div>
+                <div class="col gallery-item">
+                    <img src="assets/images/gallery8.jpg" data-aos="flip-left">
+                </div>
+                <div class="col gallery-item">
+                    <img src="assets/images/gallery9.jpg" data-aos="flip-left">
+                </div>
+                <div class="col gallery-item">
+                    <img src="assets/images/gallery10.jpg" data-aos="flip-left">
+                </div>
+                <div class="col gallery-item">
+                    <img src="assets/images/gallery11.jpg" data-aos="flip-left">
+                </div>
+            </div>
+          </div>
+    </section>
+    <!-- GALLERY END -->
+    <!-- ACHIEVMENT START -->
+    <section class="award-section mt-3" id="award">
+        <div class="container">
+            <h2 class="text-center section-title">Achievements</h2>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="achievement-card">
+                  <i class='bx bxs-trophy achievement-icon'></i>
+                  <h4 class="text-center fs-2 mb-3">Award Winning</h4>
+                </div>
+              </div>
+            </div>
+            <div class="row text-center">
+                <div class="p-5 col-md-4  fs-4">
+                    <p>Dalla Dalla</p> <br>
+                    <p>🏆🏆🏆🏆🏆🏆🏆🏆🏆 (9)</p>
+                </div>
+                <div class="p-5 col-md-4  fs-4">
+                    <p>ICY</p>
+                    <p>🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆 (12)</p>
+                </div>
+                <div class="p-5 col-md-4  fs-4">
+                    <p>WANNABE</p> <br>
+                    <p>🏆🏆🏆🏆🏆🏆🏆🏆 (8)</p>
+                </div>
+                <div class="p-5 col-md-4  fs-4">
+                    <p>Not Shy</p> <br>
+                    <p>🏆🏆🏆🏆🏆 (5)</p>
+                </div>
+                <div class="p-5 col-md-4  fs-4">
+                    <p>In the morning</p> <br>
+                    <p>🏆🏆🏆🏆🏆 (5)</p>
+                </div>
+                <div class="p-5 col-md-4  fs-4">
+                    <p>LOCO</p> <br>
+                    <p>🏆🏆🏆 (3)</p>
+                </div>
+                <div class="p-5 col-md-4  fs-4">
+                    <p>SNEAKERS</p> <br>
+                    <p>🏆🏆🏆 (3)</p>
+                </div>
+                <div class="p-5 col-md-4  fs-4">
+                    <p>Cheshire</p> <br>
+                    <p>🏆 (1)</p>
+                </div>
+            </div>
+          </div>    
+    </section>
+    <!-- ACHIEVMENT END -->
+    <!-- FOOTER START -->
+    <footer>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col">
+                    <a href="https://www.youtube.com/c/ITZY" target="_blank">
+                        <i class='bx bxl-youtube bx-md footer-icon'></i>
+                    </a>
+                    <a href="https://www.instagram.com/itzy.all.in.us" target="_blank">
+                        <i class='bx bxl-instagram bx-md footer-icon'></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@itzyofficial" target="_blank">
+                        <i class='bx bxl-tiktok bx-md footer-icon'></i>
+                    </a>
+                    
+                </div>
+                <div class="col text-end">
+                    <p>&copy;elmoses1024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+
+
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/Flip.min.js"></script>
+    <script src="script.js"></script>
+    <!-- BOX ICON -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- sumber gambar:https://id.pinterest.com/search/pins/?q=itzy&rs=rs&eq=&etslf=3089 -->
+    <!-- sumber gambar:https://itzy.jype.com/Default/DiscographyList -->
+  </body>
+</html>
