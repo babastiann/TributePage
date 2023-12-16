@@ -25,13 +25,21 @@ header {
 .navbar {
   margin-bottom: 1px;
 }
+.navbar .nav-item a:hover{
+  color: #f5f5f5;
+  border-bottom: 1px solid;
+}
+.navbar .nav-item .dropdown-menu a:hover{
+  background-color: rgba(131, 129, 129, 0.6);
+  color: #050505;
+  border-bottom: 1px solid;
+}
 @media (max-width: 767.98px) {
   .reverse {
     display: flex;
     flex-direction: column-reverse;
   }
 }
-
 .member-img {
   --s: 475px;
   --b: 8px;

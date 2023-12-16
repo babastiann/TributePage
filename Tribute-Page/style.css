@@ -22,7 +22,7 @@ section {
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 32px;
+  margin-top: 12px;
 }
 a {
   text-decoration: none;
@@ -51,50 +51,6 @@ a:hover {
   color: #101010;
 }
 
-/* Ripple Out */
-@-webkit-keyframes hvr-ripple-out {
-  100% {
-    top: -12px;
-    right: -12px;
-    bottom: -12px;
-    left: -12px;
-    opacity: 0;
-  }
-}
-@keyframes hvr-ripple-out {
-  100% {
-    top: -12px;
-    right: -12px;
-    bottom: -12px;
-    left: -12px;
-    opacity: 0;
-  }
-}
-.hvr-ripple-out {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-}
-.hvr-ripple-out:before {
-  content: "";
-  position: absolute;
-  border: #e1e1e1 solid 6px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-}
-.hvr-ripple-out:hover:before,
-.hvr-ripple-out:focus:before,
-.hvr-ripple-out:active:before {
-  -webkit-animation-name: hvr-ripple-out;
-  animation-name: hvr-ripple-out;
-}
 /* Grow Shadow */
 .hvr-grow-shadow {
   display: inline-block;
@@ -136,10 +92,6 @@ a:hover {
 
 .navbar-brand {
   margin-right: 50px;
-}
-.navbar-nav .nav-item.dropdown:hover > .nav-link {
-  background-color: var(--color4);
-  color: var(--color2);
 }
 
 .navbar-nav .nav-item.dropdown > .nav-link:active,
@@ -314,6 +266,7 @@ a:hover {
 .gallery-item img {
   width: 100%;
   height: auto;
+  margin: 12px 0 0 0;
   transition: transform 0.3s;
 }
 
