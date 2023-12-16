@@ -1,3 +1,5 @@
+// 2372066 Sebastian C
+
 gsap.registerPlugin(Flip) 
 gsap.registerPlugin(ScrollTrigger) 
 

@@ -1,43 +1,66 @@
+/* 2372066 Sebastian C */
+
 /* FONT */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* RESET */
 * {
-    margin: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: 'Poppins';
-  }
-  img{
-    max-width: 100%;
-  }
-  body {
-    background-color: white;
-    background-image: linear-gradient(135.9deg, rgba(109, 25, 252, 1) 16.4%, rgba(125, 31, 165, 1) 56.1%);
-    height: 100vh;
-  }
-  .navbar a {
-    color: #f5f5f5;
-  }
-  .navbar {
-    margin-bottom: 32px;
-  }
-  .hero-img {
-    --s: 475px;
-    --b: 8px; 
-    --g: 14px; 
-    --c: #2a04ff; 
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Poppins";
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-color: white;
+  background-image: linear-gradient(135.9deg, rgba(109, 25, 252, 1) 16.4%, rgba(125, 31, 165, 1) 56.1%);
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
 
-    width: var(--s);
-    height: 500px;
-    aspect-ratio: 1;
-    outline: calc(var(--s) / 2) solid #0009;
-    outline-offset: calc(var(--s) / -2);
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 45px;
+.navbar {
+  margin-bottom: 1px;
+}
+@media (max-width: 767.98px) {
+  .reverse {
+    display: flex;
+    flex-direction: column-reverse;
   }
-  .hero-img:hover {
-    outline: var(--b) solid var(--c);
-    outline-offset: var(--g);
-  }
-  /* SUMBER KODE: https://freefrontend.com/css-hover-effects/ */
+}
+
+.member-img {
+  --s: 475px;
+  --b: 8px;
+  --g: 14px;
+  --c: #2a04ff;
+
+  width: var(--s);
+  height: 500px;
+  aspect-ratio: 1;
+  outline: calc(var(--s) / 2) solid #0009;
+  outline-offset: calc(var(--s) / -2);
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 45px;
+}
+.member-img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+/* SUMBER KODE: https://freefrontend.com/css-hover-effects/ */
+/* footer */
+footer {
+  background-color: #050505;
+  color: #f5f5f5;
+}
+.footer {
+  padding: 48px;
+}
+.footer a {
+  text-decoration: none;
+  color: #f5f5f5;
+}

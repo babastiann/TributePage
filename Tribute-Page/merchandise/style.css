@@ -1,0 +1,90 @@
+/* 2372066 Sebastian C */
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700;900&family=Poppins:wght@400;500;700&display=swap");
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+}
+
+/* sidebar */
+button {
+  width: 7rem;
+}
+.menu-btn {
+  margin-top: 24px;
+  margin-right: 12px;
+  border: 2px solid;
+  border-radius: 25px;
+  color: #E26EE5;
+  position: fixed;
+  right: 0;
+}
+/* Header */
+header {
+  margin: 1rem 0 2rem 0;
+}
+/* Section1 */
+#section1 {
+  background-color: #0f2167;
+  color: #f5f5f5;
+  padding-bottom: 3rem;
+  margin: 0 0 12px 0;
+  display: flex;
+}
+.section-title {
+  margin: 0 0 12px 36px;
+}
+
+.card .card-img-top {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  border: 2px solid;
+  border-radius: 25px;
+}
+.card .card-body a:hover{
+    background-color: #E26EE5;
+    color: #f5f5f5;
+}
+.card .card-body a {
+  border: 1px solid;
+  background-color: #f5f5f5;
+  font-weight: 500;
+}
+/* section 2 */
+#categories .container .card{
+    border: 2px solid;
+    background-color: #E26EE5;
+    margin: 0 0 12px 0;
+}
+/* Footer */
+footer{
+    background-color: #050505;
+    color: #f5f5f5;
+    margin: 24px 0 0 0;
+}
+.footer{
+    padding: 48px;
+}
+.footer a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+/* accesories */
+#halaman-categories .card{
+    height: 450px;
+    width: 285px;
+    padding: 4px;
+    text-align: end;
+    border: 2px solid;
+    line-height: 12px;
+    margin:0 0 12px 0;
+    background-color: #919191;
+}
+#halaman-categories .card h2{
+    font-size: 24px;
+}
